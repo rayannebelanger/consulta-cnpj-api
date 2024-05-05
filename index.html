@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="arquivo.js"></script>
+    <title>Buscar CNPJ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex items-center justify-center px-6 py-12 bg-pink-400">
+    <div class="bg-white px-12 py-10 w-fit rounded-md">
+        <h1 class="text-2xl font-semibold mb-4">Buscar CNPJ</h1>
+        <label>Digite o CNPJ: </label>
+        <div>
+            <input class="py-1 bg-slate-300 shadow-md" type="text" id="cnpj">
+            <button class="ml-2 mb-4 bg-pink-700 text-white px-4 py-1.5 rounded-full text-sm font-semibold" onclick="consultarCNPJ()">Consultar</button>
+        </div>
+        <div id="resultado">
+            <p>Busca encontrada:</p>
+        </div>
+    </div>
+
+</body>
+</html>
